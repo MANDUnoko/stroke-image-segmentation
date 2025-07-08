@@ -46,7 +46,7 @@
 
 - Optimizer: Adam
 - Loss:
-  - 출혈: Dice + BCE/Focal
+  - 출혈: Dice + BCE/Focal (최종 Dice + Focal 선택)
   - 허혈: Dice + Focal
 - Scheduler: ReduceLROnPlateau
 - 지표: Dice, IoU, Sensitivity, Specificity, Precision, F1
